@@ -26,6 +26,17 @@ Please find our portal data catalogue API [here] (http://www.data.gov.uk/data/ap
 
 **Metadata Details**
 
+Concept
+Description
+Front-end label
+National metadata schema term
+Back-end label
+Required
+Data type
+Format/pattern
+Cardinality
+Usage notes
+
 Concept | Metadata | Required? | Cardinality | Description | Usage Notes
 ------- | -------- | ----- | ---- | ---------- | ---------
 Title | title | Yes | (1,1) | Human-readable name of the asset. Should be in plain English and include sufficient detail to facilitate search and discovery. | string 
