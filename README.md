@@ -1,9 +1,28 @@
-
 ####United Kingdom Metadata
 
 **Where to Find Data**
 
-The U.K. is currently implementing a new Open Data Policy, as outlined in the [Managing Information as an Asset](http:/project-open-data.github.io) memorandum. On November, 9, 2013 you can access all public federal government data at data.gov, and government data owned/maintained by specific federal agencies by going to *agency.gov*/data.json. Until then, much, but not all, public government data will be available at these locations, described using the metadata below.
+The U.K. uses the data.gov.uk portal for...
+
+**Next planned change (date)**
+
+The U.K. is planning to...
+
+**Licensing**
+
+All material on data.gov.uk is...
+
+**Contact**
+
+Please send feedback to... or use form on portal
+
+**Latest metadata**
+
+Please find a daily [output] (http://www.data.gov.uk/dataset/data_gov_uk-datasets) of the metadata used by our portal.
+
+**Portal API**
+
+Please find our portal data catalogue API [here] (http://www.data.gov.uk/data/api).
 
 **Metadata Details**
 
@@ -38,7 +57,22 @@ RSS Feed | feed | No | (0,1) | URL for an RSS feed that provides access to the d
 System of Records    | systemOfRecords  | No  | (0,1)  | URL to the System of Records related to this dataset.  |  URL
 
 
+**Mappings to Other Vocabs 2**
+
+
+Concept|CKAN (Level 1)|CKAN (Level 2)|CKAN (Level 3)|RDFa|Schema.org|DCAT|ADMS|VoID|Dataset extension|Other
+------- | ----- | -------- | -------- | -------- | ----- | -------| -------| -------| -------|
+
+
+Concept |CKAN (Level 1) | CKAN (Level 2) | CKAN Level 3) | RDFa | Schema.org|
+------- | ----- | -------- | -------- | -------- | ----- | -------
+Title | Title | title | title |  dcterms:title | sdo:name
+Description | Description | description | notes | dcterms:description | sdo:description 
+Keyword | Tags | keyword |  tags |  dcat:keyword |  sdo:keywords
+
+
 **Mappings to Other Vocabs**
+
 
 Concept | Human-Readable Label | Metadata | CKAN | RDFa Lite 1.1 | Schema.org
 ------- | ----- | -------- | -------- | -------- | ----- | -------
